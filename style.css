@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+h1, h2,h3 {
+    padding: 0;
+    margin: 0;
+}
+.half-width {
+    width: 50%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 580px;
+    padding: 100px 140px;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-area{
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 25%;
+}
+.content-area h3{
+    font-size: 30px;
+}
+.content-area h1{
+    font-size: 50px;
+    color: #ec4c7a;
+}
+.content-area h2{
+    font-size: 30px;
+    color: #333;
+}
+.content-area p{
+    font-size: 15px;
+    color: gray;
+}
+.btn{
+    padding: 10px 30px;
+    background: #ec4c7a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.bio-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.portfilio-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.portfilio-width{
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+}
+.portfilio-area img{
+    width: 100%;
+}
+.portfilio-area h2,.client-area h2{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 35px;
+}
+.client-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.message, .contact{
+    text-align: center;
+}
+.client-area h4{
+    font-size: 18px;
+    margin: 0;
+}
+.client-area h6{
+    color: gray;
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.client-area p{
+    font-weight: 600;
+    line-height: 28px;
+    color: #333;
+    font-size: 16px;
+}
+.client-area .contact {
+    background: #ec4c7b;
+    width: 40%;
+    margin-top: 50px;
+    margin: auto;
+    padding: 50px 100px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 100px;
+}
+.contact h3 {
+    font-weight: 500;
+    font-size: 23px;
+    padding-top: 10px;
+}
+.form{
+    margin-top: 50px;
+}
+.form-control {    
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: none !important;
+    height: 50px;
+    border: 2px solid #e0e0e0;
+}
+.form-group .form-width {
+    width: 40%;
+    float: left;
+}
+.form-group .form-width input#email {
+    margin-left: 50%;
+}
+textarea#comments {
+    height: auto;
+}
+.form-group{
+    margin-top: .5em !important;
+    margin-bottom: .5em !important
+}
+.footer-area{
+    color: gray;
+    text-align: center;
+}
